@@ -75,7 +75,7 @@ MAX_PAGES = 100              # Maximum pages to scrape (300 for details scraper)
 ### Running the Application Scraper
 
 ```bash
-python paste.txt
+python sample_application.py
 ```
 
 **What it does:**
@@ -86,7 +86,7 @@ python paste.txt
 ### Running the Product Details Scraper
 
 ```bash
-python paste-2.txt
+python sample_individual.py
 ```
 
 **What it does:**
