@@ -1,4 +1,4 @@
-# Jegs Bestop Parts Scraper
+# Jegs Individual and Application Parts Scraper
 
 A comprehensive web scraping solution for extracting Bestop automotive parts data from Jegs.com, including both vehicle application data and detailed product specifications.
 
