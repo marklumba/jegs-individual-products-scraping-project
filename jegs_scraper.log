@@ -1,0 +1,991 @@
+2024-11-26 16:34:55,797 - INFO: Starting JEGS scraping process...
+2024-11-26 16:34:55,797 - WARNING: WebDriverManager failed: ChromeDriverManager.__init__() got an unexpected keyword argument 'path'
+2024-11-26 16:34:55,797 - INFO: ChromeDriver found at: C:\Users\Mark Lumba\.wdm\drivers\chromedriver
+2024-11-26 16:34:55,800 - INFO: patching driver executable C:\Users\Mark Lumba\.wdm\drivers\chromedriver.exe
+2024-11-26 16:34:55,800 - WARNING: Driver method 1 failed: [Errno 2] No such file or directory: 'C:\\Users\\Mark Lumba\\.wdm\\drivers\\chromedriver.exe'
+2024-11-26 16:34:55,800 - WARNING: Driver method 2 failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2024-11-26 16:34:55,800 - ERROR: Driver setup failed: Could not initialize webdriver
+2024-11-26 16:34:55,800 - ERROR: Scraping process failed: Could not initialize webdriver
+2024-11-26 16:34:55,802 - ERROR: Traceback (most recent call last):
+  File "c:\Users\Mark Lumba\Documents\jegs scraping project\main.py", line 416, in main
+    driver = setup_driver()
+             ^^^^^^^^^^^^^^
+  File "c:\Users\Mark Lumba\Documents\jegs scraping project\main.py", line 163, in setup_driver
+    raise RuntimeError("Could not initialize webdriver")
+RuntimeError: Could not initialize webdriver
+
+2024-11-26 16:39:06,043 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-26 16:49:14,281 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-26 16:50:06,453 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:06:20,681 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:41:00,681 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:48:56,173 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:52:25,725 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:56:52,949 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:58:50,368 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 08:59:38,399 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 09:00:17,230 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 09:05:40,094 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 09:11:47,958 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 09:54:39,720 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:54:39,794 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:09,607 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:09,665 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:29,074 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:29,135 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:36,487 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:36,560 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:45,429 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:55:45,497 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:58:41,338 - INFO: patching driver executable ./chromedriver.exe
+2024-11-27 09:59:26,899 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 09:59:26,962 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:17:05,774 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:17:05,847 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:18:44,545 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:18:44,611 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:20:29,803 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:20:29,868 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:20:34,565 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:20:34,647 - INFO: Selenium patched. Safe to import Chrome / ChromeOptions
+2024-11-27 10:22:38,261 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:23:05,854 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:26:17,044 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:28:29,629 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:28:36,626 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:28:45,396 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:28:54,640 - WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/efaabbc1ab7d2da0316ea2fcbced6ce5/window
+2024-11-27 10:28:58,743 - WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C4AB9EA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/efaabbc1ab7d2da0316ea2fcbced6ce5/window
+2024-11-27 10:29:02,802 - WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C4AB9FE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/efaabbc1ab7d2da0316ea2fcbced6ce5/window
+2024-11-27 10:33:27,486 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:38:47,810 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:43:04,821 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 10:55:31,832 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 11:02:36,840 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 11:12:10,147 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 11:16:05,065 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 13:38:38,257 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 13:43:27,347 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 13:57:16,538 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 14:15:21,181 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 15:51:49,131 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 15:55:44,536 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:00:26,753 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:29:34,870 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:33:55,155 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:36:58,491 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:38:43,990 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:47:36,315 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-27 16:53:57,218 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 08:09:45,510 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 10:15:42,405 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 11:02:37,862 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 11:16:05,390 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 11:20:55,029 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 11:22:27,288 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-11-28 14:28:51,238 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 11:06:37,500 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 11:29:10,047 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 11:38:51,239 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 11:42:17,465 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 13:21:49,425 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 13:40:28,629 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 13:49:17,756 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 13:51:57,920 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 13:54:54,920 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 14:05:38,956 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 15:18:14,942 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 15:41:15,213 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 16:01:55,047 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 16:51:25,856 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-05 16:55:45,865 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:08:13,587 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:13:50,087 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:18:50,626 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:22:07,362 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:24:57,983 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:28:09,513 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:33:26,227 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:36:08,523 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:40:24,594 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:44:11,579 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:47:14,041 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:54:34,051 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:57:11,226 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 08:59:18,737 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:05:52,651 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:18:31,706 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:23:15,679 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:25:35,607 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:28:20,321 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:35:48,399 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:41:12,766 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:48:48,137 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:53:25,446 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:57:16,996 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 09:59:49,805 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:15:54,783 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:17:46,438 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:22:24,893 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:28:08,396 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:30:48,827 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:34:21,159 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:37:58,307 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:44:50,207 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:49:28,215 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:51:24,885 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:55:10,700 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 10:58:36,496 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:03:08,726 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:06:42,062 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:21:47,516 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:27:23,302 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:34:33,979 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:43:37,241 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:46:13,643 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:50:26,612 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:52:08,975 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 11:57:51,444 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:11:20,747 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:15:01,046 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:19:09,412 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:22:32,045 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:26:59,946 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:33:49,122 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:35:56,971 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:42:07,190 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:48:32,604 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 13:55:30,803 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:01:35,427 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:03:55,571 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:09:28,469 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:16:39,749 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:21:05,575 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:27:04,017 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:29:49,486 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:34:34,200 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:41:20,493 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 14:54:52,520 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 15:26:38,026 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 15:30:22,437 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-06 15:40:29,588 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 14:27:23,401 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 14:29:20,486 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 14:43:46,089 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 14:51:40,216 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 14:58:34,332 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 15:21:37,480 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 15:36:52,567 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 15:47:36,690 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 15:52:35,995 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 15:55:47,047 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-17 16:15:29,778 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-18 08:24:53,315 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-18 10:30:17,111 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-18 10:33:34,710 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-18 10:36:46,542 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-18 10:37:54,959 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-19 08:05:17,194 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-19 08:17:43,506 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-19 08:22:58,906 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-19 10:16:21,455 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-19 10:17:23,642 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-19 13:39:47,545 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-20 08:04:03,495 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-20 10:00:39,297 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-20 12:33:58,995 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2024-12-20 14:47:29,555 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:14:27,829 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:15:40,246 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:16:44,146 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:19:01,576 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:20:49,666 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:24:54,084 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:25:13,651 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:27:34,226 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:30:08,896 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:31:25,604 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:34:39,866 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:36:12,547 - ERROR: Error occurred: Could not navigate to Individual Products tab
+Traceback (most recent call last):
+  File "c:\Users\Mark Lumba\Documents\jegs scraping project\skyjacker_individual_parts.py", line 273, in main
+    navigate_to_individual_parts(driver)
+  File "c:\Users\Mark Lumba\Documents\jegs scraping project\skyjacker_individual_parts.py", line 77, in navigate_to_individual_parts
+    raise Exception("Could not navigate to Individual Products tab")
+Exception: Could not navigate to Individual Products tab
+2025-01-06 08:44:03,197 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:48:04,121 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:52:22,608 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:53:36,698 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 08:55:37,877 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:03:02,714 - INFO: Starting scraping process...
+2025-01-06 09:03:02,715 - ERROR: Driver setup failed: SB() got an unexpected keyword argument 'page_load_timeout'
+2025-01-06 09:03:02,715 - ERROR: An error occurred during execution: SB() got an unexpected keyword argument 'page_load_timeout'
+2025-01-06 09:05:31,045 - INFO: Starting scraping process...
+2025-01-06 09:05:31,046 - ERROR: Driver setup failed: '_GeneratorContextManager' object has no attribute 'set_page_load_timeout'
+2025-01-06 09:05:31,046 - ERROR: An error occurred during execution: '_GeneratorContextManager' object has no attribute 'set_page_load_timeout'
+2025-01-06 09:06:49,318 - INFO: Starting scraping process...
+2025-01-06 09:06:49,318 - ERROR: Driver setup failed: '_GeneratorContextManager' object has no attribute 'set_page_load_timeout'
+2025-01-06 09:06:49,319 - ERROR: An error occurred during execution: '_GeneratorContextManager' object has no attribute 'set_page_load_timeout'
+2025-01-06 09:07:39,229 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:17:03,870 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:30:41,680 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:33:18,405 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:34:54,298 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:38:54,192 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:54:04,642 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 09:57:03,969 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:00:23,494 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:00:32,575 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:00:54,222 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:01:53,743 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:15:19,518 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:41:15,884 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 10:42:12,892 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:03:48,324 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:15:39,497 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:19:14,221 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:23:53,652 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:29:07,047 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:32:19,492 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:35:52,095 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:47:18,952 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:58:43,923 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:58:52,568 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:59:06,272 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:59:15,688 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 11:59:45,897 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 13:05:31,854 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 13:07:08,123 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 13:15:14,519 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 13:21:37,740 - WARNING: Error occurred during getting browser(s): random, but was suppressed with fallback.
+2025-01-06 13:21:38,055 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-08 16:30:15,821 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-02-24 11:21:53,627 - ERROR: Failed with locator ('css selector', 'span#unselected-tab a[href*="?Tab=SKU"]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:22:03,825 - ERROR: Failed with locator ('xpath', '//span[@id="unselected-tab"]//a[contains(@href, "?Tab=SKU")]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:22:14,012 - ERROR: Failed with locator ('css selector', 'span#unselected-tab a'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:26:44,222 - ERROR: Failed with locator ('css selector', 'span#unselected-tab.skuTab a'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:27:14,295 - ERROR: Failed with locator ('xpath', '//span[@id="unselected-tab" and @class="skuTab"]/a'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:27:44,373 - ERROR: Failed with locator ('xpath', '//span[contains(text(), "Individual Products")]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:28:14,400 - ERROR: Failed with locator ('css selector', 'a[href*="Tab=SKU&src=brand"]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-02-24 11:28:44,484 - ERROR: Failed with locator ('css selector', '.skuTab a'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB0D6EE5+28773]
+	(No symbol) [0x00007FF7FB0425D0]
+	(No symbol) [0x00007FF7FAED8FAA]
+	(No symbol) [0x00007FF7FAF2F286]
+	(No symbol) [0x00007FF7FAF2F4BC]
+	(No symbol) [0x00007FF7FAF82A27]
+	(No symbol) [0x00007FF7FAF5728F]
+	(No symbol) [0x00007FF7FAF7F6F3]
+	(No symbol) [0x00007FF7FAF57023]
+	(No symbol) [0x00007FF7FAF1FF5E]
+	(No symbol) [0x00007FF7FAF211E3]
+	GetHandleVerifier [0x00007FF7FB42422D+3490733]
+	GetHandleVerifier [0x00007FF7FB43BA13+3586963]
+	GetHandleVerifier [0x00007FF7FB43144D+3544525]
+	GetHandleVerifier [0x00007FF7FB19C9AA+838442]
+	(No symbol) [0x00007FF7FB04D01F]
+	(No symbol) [0x00007FF7FB0495E4]
+	(No symbol) [0x00007FF7FB049786]
+	(No symbol) [0x00007FF7FB038CB9]
+	BaseThreadInitThunk [0x00007FFA1F26E8D7+23]
+	RtlUserThreadStart [0x00007FFA1FC9BF2C+44]
+
+2025-04-10 14:23:01,779 - INFO: Starting scraping process...
+2025-04-10 14:23:01,788 - ERROR: Driver setup failed: Driver() got an unexpected keyword argument 'options'
+2025-04-10 14:23:01,788 - ERROR: An error occurred: Driver() got an unexpected keyword argument 'options'
+2025-04-10 14:26:14,074 - INFO: Starting scraping process...
+2025-04-10 14:26:27,487 - INFO: Collecting part links...
+2025-04-10 14:26:27,487 - INFO: Scraping page 1...
+2025-04-10 14:26:34,024 - INFO: Found 60 new links on page 1
+2025-04-10 14:26:34,046 - INFO: Scraping page 2...
+2025-04-10 14:26:40,358 - INFO: Found 61 new links on page 2
+2025-04-10 14:26:40,385 - INFO: Total unique links found: 60
+2025-04-10 14:26:43,450 - INFO: Scraping details for 60 parts in parallel...
+2025-04-10 14:26:43,450 - INFO: Processing batch 1/6 with 10 links
+2025-04-10 14:26:49,434 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1413/10002/-1
+2025-04-10 14:26:50,127 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1405/10002/-1
+2025-04-10 14:26:50,863 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1
+2025-04-10 14:26:52,979 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/2021/10002/-1
+2025-04-10 14:26:56,304 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/1405/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:26:58,341 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1906K1/10002/-1
+2025-04-10 14:26:59,358 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1405/10002/-1
+2025-04-10 14:26:59,885 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/2021/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015CEB12]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:27:01,461 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/7501-CP/10002/-1
+2025-04-10 14:27:02,945 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/2021/10002/-1
+2025-04-10 14:27:05,391 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/7121PK/10002/-1
+2025-04-10 14:27:05,726 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:27:05,751 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF7015165DC]
+	(No symbol) [0x00007FF7015162CA]
+	(No symbol) [0x00007FF701513F6A]
+	(No symbol) [0x00007FF70151492F]
+	(No symbol) [0x00007FF70152350E]
+	(No symbol) [0x00007FF701539911]
+	(No symbol) [0x00007FF7015408BA]
+	(No symbol) [0x00007FF70151509D]
+	(No symbol) [0x00007FF701539101]
+	(No symbol) [0x00007FF7015CF0F9]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:27:08,793 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1413/10002/-1
+2025-04-10 14:27:08,805 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1
+2025-04-10 14:27:12,095 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1916/10002/-1
+2025-04-10 14:27:12,787 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1906/10002/-1
+2025-04-10 14:27:14,689 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:27:17,515 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:27:17,752 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1906K1/10002/-1
+2025-04-10 14:27:19,072 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/1906/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:27:19,771 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/4262K/10002/-1
+2025-04-10 14:27:20,578 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/7501-CP/10002/-1
+2025-04-10 14:27:21,644 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:27:22,132 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1906/10002/-1
+2025-04-10 14:27:24,714 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/7121PK/10002/-1
+2025-04-10 14:27:29,303 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:27:32,365 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1916/10002/-1
+2025-04-10 14:27:35,793 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:27:38,847 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/4262K/10002/-1
+2025-04-10 14:27:38,847 - INFO: Processing batch 2/6 with 10 links
+2025-04-10 14:29:17,550 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/2116/10002/-1
+2025-04-10 14:29:18,167 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/2040/10002/-1
+2025-04-10 14:29:18,840 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/19069/10002/-1
+2025-04-10 14:29:19,481 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/3712/10002/-1
+2025-04-10 14:29:20,314 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1905K1/10002/-1
+2025-04-10 14:29:25,247 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/2040/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:29:25,634 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/3712/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:29:28,305 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/2040/10002/-1
+2025-04-10 14:29:28,704 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/3712/10002/-1
+2025-04-10 14:29:30,451 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1905/10002/-1
+2025-04-10 14:29:31,365 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/2101/10002/-1
+2025-04-10 14:29:33,832 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:29:34,020 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/1905K1/10002/-1): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701514F25]
+	(No symbol) [0x00007FF701539EE4]
+	(No symbol) [0x00007FF7015AEC8F]
+	(No symbol) [0x00007FF7015CEB12]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:29:34,034 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/19069/10002/-1): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701514F25]
+	(No symbol) [0x00007FF701539EE4]
+	(No symbol) [0x00007FF7015AEC8F]
+	(No symbol) [0x00007FF7015CEB12]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:29:36,891 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/2116/10002/-1
+2025-04-10 14:29:37,108 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1905K1/10002/-1
+2025-04-10 14:29:37,108 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/19069/10002/-1
+2025-04-10 14:29:40,556 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/7166/10002/-1
+2025-04-10 14:29:41,321 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1921/10002/-1
+2025-04-10 14:29:44,775 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1411/10002/-1
+2025-04-10 14:29:47,542 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/1921/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:29:47,903 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:29:47,977 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:29:50,590 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1921/10002/-1
+2025-04-10 14:29:50,956 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/2101/10002/-1
+2025-04-10 14:29:51,030 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1905/10002/-1
+2025-04-10 14:29:58,083 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:29:58,120 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/1411/10002/-1): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701514F25]
+	(No symbol) [0x00007FF701539EE4]
+	(No symbol) [0x00007FF7015AEC8F]
+	(No symbol) [0x00007FF7015CEB12]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:30:01,138 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/7166/10002/-1
+2025-04-10 14:30:01,179 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/1411/10002/-1
+2025-04-10 14:30:01,179 - INFO: Processing batch 3/6 with 10 links
+2025-04-10 14:30:04,973 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/7813/10002/-1
+2025-04-10 14:30:05,609 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/4240/10002/-1
+2025-04-10 14:30:06,281 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/4272/10002/-1
+2025-04-10 14:30:06,989 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/2042/10002/-1
+2025-04-10 14:30:11,619 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/5066/10002/-1
+2025-04-10 14:30:11,632 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/4240/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:30:14,682 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/4240/10002/-1
+2025-04-10 14:30:16,894 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/8716/10002/-1
+2025-04-10 14:30:17,067 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/2042/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015B8320]
+	(No symbol) [0x00007FF7015A7120]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:30:17,562 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/5066/10002/-1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701501B73]
+	(No symbol) [0x00007FF7015AEAEE]
+	(No symbol) [0x00007FF7015CEB12]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:30:20,138 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/2042/10002/-1
+2025-04-10 14:30:20,906 - INFO: Got 0 records from https://www.jegs.com/i/Edelbrock/350/5066/10002/-1
+2025-04-10 14:30:21,892 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:30:22,259 - ERROR: Error processing part (https://www.jegs.com/i/Edelbrock/350/4272/10002/-1): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.43)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF701514F25]
+	(No symbol) [0x00007FF701539EE4]
+	(No symbol) [0x00007FF7015AEC8F]
+	(No symbol) [0x00007FF7015CEB12]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:30:22,347 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/4456/10002/-1
+2025-04-10 14:30:24,247 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/7220/10002/-1
+2025-04-10 14:30:28,711 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/8059/10002/-1
+2025-04-10 14:30:29,890 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1221/10002/-1
+2025-04-10 14:30:33,400 - WARNING: Vehicle Fitment tab not found or data didn't load.
+2025-04-10 14:33:16,487 - INFO: Scraping page 1...
+2025-04-10 14:33:25,413 - INFO: Found 60 new links on page 1
+2025-04-10 14:33:25,432 - INFO: Total unique links found: 30
+2025-04-10 14:33:27,980 - INFO: Testing parallel scraping with a small batch...
+2025-04-10 14:33:29,850 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1413/10002/-1
+2025-04-10 14:33:30,511 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1
+2025-04-10 14:33:55,267 - WARNING: Vehicle Fitment tab not found or data didn't load for https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF70157F19D]
+	(No symbol) [0x00007FF70157F44C]
+	(No symbol) [0x00007FF7015D23D7]
+	(No symbol) [0x00007FF7015A719F]
+	(No symbol) [0x00007FF7015CF21F]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:33:56,287 - WARNING: Vehicle Fitment tab not found or data didn't load for https://www.jegs.com/i/Edelbrock/350/1413/10002/-1: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF70157F19D]
+	(No symbol) [0x00007FF70157F44C]
+	(No symbol) [0x00007FF7015D23D7]
+	(No symbol) [0x00007FF7015A719F]
+	(No symbol) [0x00007FF7015CF21F]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:35:02,460 - INFO: Retry attempt 2 for https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1. Waiting 2 seconds...
+2025-04-10 14:35:04,490 - INFO: Retry attempt 2 for https://www.jegs.com/i/Edelbrock/350/1413/10002/-1. Waiting 2 seconds...
+2025-04-10 14:35:06,242 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1
+2025-04-10 14:35:08,442 - INFO: Processing part: https://www.jegs.com/i/Edelbrock/350/1413/10002/-1
+2025-04-10 14:35:31,269 - WARNING: Vehicle Fitment tab not found or data didn't load for https://www.jegs.com/i/Edelbrock/350/1912K1/10002/-1: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF70157F19D]
+	(No symbol) [0x00007FF70157F44C]
+	(No symbol) [0x00007FF7015D23D7]
+	(No symbol) [0x00007FF7015A719F]
+	(No symbol) [0x00007FF7015CF21F]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:35:33,704 - WARNING: Vehicle Fitment tab not found or data didn't load for https://www.jegs.com/i/Edelbrock/350/1413/10002/-1: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF701761F55+78133]
+	GetHandleVerifier [0x00007FF701761FB0+78224]
+	(No symbol) [0x00007FF7015291BA]
+	(No symbol) [0x00007FF70157F19D]
+	(No symbol) [0x00007FF70157F44C]
+	(No symbol) [0x00007FF7015D23D7]
+	(No symbol) [0x00007FF7015A719F]
+	(No symbol) [0x00007FF7015CF21F]
+	(No symbol) [0x00007FF7015A6F33]
+	(No symbol) [0x00007FF701570358]
+	(No symbol) [0x00007FF7015710C3]
+	GetHandleVerifier [0x00007FF701A2BA8D+3001453]
+	GetHandleVerifier [0x00007FF701A25E72+2977874]
+	GetHandleVerifier [0x00007FF701A4497D+3103581]
+	GetHandleVerifier [0x00007FF70177C7EA+186826]
+	GetHandleVerifier [0x00007FF7017843FF+218591]
+	GetHandleVerifier [0x00007FF701769D94+110452]
+	GetHandleVerifier [0x00007FF701769F42+110882]
+	GetHandleVerifier [0x00007FF701750379+5465]
+	BaseThreadInitThunk [0x00007FFFF721E8D7+23]
+	RtlUserThreadStart [0x00007FFFF87314FC+44]
+
+2025-04-10 14:35:50,921 - INFO: Retry attempt 3 for https://www.jegs.com/i/Edelbrock/350/1413/10002/-1. Waiting 4 seconds...
+2025-04-10 14:52:48,196 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-10 14:53:50,480 - INFO: ensuring close

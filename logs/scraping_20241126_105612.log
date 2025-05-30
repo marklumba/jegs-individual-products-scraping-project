@@ -1,0 +1,26 @@
+2024-11-26 10:56:12 - INFO: Starting web scraping process...
+2024-11-26 10:56:15 - ERROR: Scraping failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span#unselected-tab a[href*='?Tab=SKU']"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73B1C6CB5+28821]
+	(No symbol) [0x00007FF73B133840]
+	(No symbol) [0x00007FF73AFD578A]
+	(No symbol) [0x00007FF73B0291BE]
+	(No symbol) [0x00007FF73B0294AC]
+	(No symbol) [0x00007FF73B072647]
+	(No symbol) [0x00007FF73B04F33F]
+	(No symbol) [0x00007FF73B06F412]
+	(No symbol) [0x00007FF73B04F0A3]
+	(No symbol) [0x00007FF73B01A778]
+	(No symbol) [0x00007FF73B01B8E1]
+	GetHandleVerifier [0x00007FF73B4FFCAD+3408013]
+	GetHandleVerifier [0x00007FF73B51741F+3504127]
+	GetHandleVerifier [0x00007FF73B50B5FD+3455453]
+	GetHandleVerifier [0x00007FF73B28BDBB+835995]
+	(No symbol) [0x00007FF73B13EB5F]
+	(No symbol) [0x00007FF73B13A814]
+	(No symbol) [0x00007FF73B13A9AD]
+	(No symbol) [0x00007FF73B12A199]
+	BaseThreadInitThunk [0x00007FFB3DA3259D+29]
+	RtlUserThreadStart [0x00007FFB3E84AF38+40]
+

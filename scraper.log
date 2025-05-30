@@ -1,0 +1,84 @@
+2024-11-20 15:20:04,858 - INFO - Starting scraping process...
+2024-11-20 15:20:13,474 - INFO - Website loaded successfully
+2024-11-20 15:20:13,475 - INFO - Waiting for CAPTCHA solution...
+2024-11-20 15:23:43,547 - INFO - Starting scraping process...
+2024-11-20 15:23:52,639 - INFO - Website loaded successfully
+2024-11-20 15:23:52,640 - INFO - Waiting for CAPTCHA solution...
+2024-11-20 15:34:51,409 - INFO - CAPTCHA solution confirmed
+2024-11-20 15:34:51,415 - INFO - Attempt 1 to navigate to Individual Products tab
+2024-11-20 15:34:51,415 - ERROR - Error during navigation attempt 1: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A2726CB5+28821]
+	(No symbol) [0x00007FF6A2693840]
+	(No symbol) [0x00007FF6A253578A]
+	(No symbol) [0x00007FF6A250F4F5]
+	(No symbol) [0x00007FF6A25B6247]
+	(No symbol) [0x00007FF6A25CECE2]
+	(No symbol) [0x00007FF6A25AF0A3]
+	(No symbol) [0x00007FF6A257A778]
+	(No symbol) [0x00007FF6A257B8E1]
+	GetHandleVerifier [0x00007FF6A2A5FCAD+3408013]
+	GetHandleVerifier [0x00007FF6A2A7741F+3504127]
+	GetHandleVerifier [0x00007FF6A2A6B5FD+3455453]
+	GetHandleVerifier [0x00007FF6A27EBDBB+835995]
+	(No symbol) [0x00007FF6A269EB5F]
+	(No symbol) [0x00007FF6A269A814]
+	(No symbol) [0x00007FF6A269A9AD]
+	(No symbol) [0x00007FF6A268A199]
+	BaseThreadInitThunk [0x00007FFDCDE0259D+29]
+	RtlUserThreadStart [0x00007FFDCE4CAF38+40]
+
+2024-11-20 15:34:53,421 - INFO - Attempt 2 to navigate to Individual Products tab
+2024-11-20 15:34:53,421 - ERROR - Error during navigation attempt 2: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A2726CB5+28821]
+	(No symbol) [0x00007FF6A2693840]
+	(No symbol) [0x00007FF6A253578A]
+	(No symbol) [0x00007FF6A250F4F5]
+	(No symbol) [0x00007FF6A25B6247]
+	(No symbol) [0x00007FF6A25CECE2]
+	(No symbol) [0x00007FF6A25AF0A3]
+	(No symbol) [0x00007FF6A257A778]
+	(No symbol) [0x00007FF6A257B8E1]
+	GetHandleVerifier [0x00007FF6A2A5FCAD+3408013]
+	GetHandleVerifier [0x00007FF6A2A7741F+3504127]
+	GetHandleVerifier [0x00007FF6A2A6B5FD+3455453]
+	GetHandleVerifier [0x00007FF6A27EBDBB+835995]
+	(No symbol) [0x00007FF6A269EB5F]
+	(No symbol) [0x00007FF6A269A814]
+	(No symbol) [0x00007FF6A269A9AD]
+	(No symbol) [0x00007FF6A268A199]
+	BaseThreadInitThunk [0x00007FFDCDE0259D+29]
+	RtlUserThreadStart [0x00007FFDCE4CAF38+40]
+
+2024-11-20 15:34:55,425 - INFO - Attempt 3 to navigate to Individual Products tab
+2024-11-20 15:34:55,425 - ERROR - Error during navigation attempt 3: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A2726CB5+28821]
+	(No symbol) [0x00007FF6A2693840]
+	(No symbol) [0x00007FF6A253578A]
+	(No symbol) [0x00007FF6A250F4F5]
+	(No symbol) [0x00007FF6A25B6247]
+	(No symbol) [0x00007FF6A25CECE2]
+	(No symbol) [0x00007FF6A25AF0A3]
+	(No symbol) [0x00007FF6A257A778]
+	(No symbol) [0x00007FF6A257B8E1]
+	GetHandleVerifier [0x00007FF6A2A5FCAD+3408013]
+	GetHandleVerifier [0x00007FF6A2A7741F+3504127]
+	GetHandleVerifier [0x00007FF6A2A6B5FD+3455453]
+	GetHandleVerifier [0x00007FF6A27EBDBB+835995]
+	(No symbol) [0x00007FF6A269EB5F]
+	(No symbol) [0x00007FF6A269A814]
+	(No symbol) [0x00007FF6A269A9AD]
+	(No symbol) [0x00007FF6A268A199]
+	BaseThreadInitThunk [0x00007FFDCDE0259D+29]
+	RtlUserThreadStart [0x00007FFDCE4CAF38+40]
+
+2024-11-20 15:47:42,449 - INFO - Starting scraping process...
+2024-11-20 15:47:44,912 - INFO - Opening website: https://www.jegs.com/v/ACC-Performance/082?Tab=GROUP

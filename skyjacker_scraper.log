@@ -1,0 +1,31 @@
+2025-01-06 13:23:44,292 - INFO: patching driver executable C:\Users\Mark Lumba\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-01-06 13:23:45,591 - INFO: Driver setup successful
+2025-01-06 13:23:45,591 - INFO: Starting scraper...
+2025-01-06 13:23:46,193 - INFO: Waiting for Cloudflare challenge...
+2025-01-06 13:23:55,532 - INFO: Navigating to individual parts section...
+2025-01-06 13:24:15,682 - ERROR: Failed to navigate to parts section: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0060EC13+23731]
+	(No symbol) [0x0059C394]
+	(No symbol) [0x0047BE63]
+	(No symbol) [0x004BFCE6]
+	(No symbol) [0x004BFF2B]
+	(No symbol) [0x004FD892]
+	(No symbol) [0x004E1EA4]
+	(No symbol) [0x004FB46E]
+	(No symbol) [0x004E1BF6]
+	(No symbol) [0x004B3F35]
+	(No symbol) [0x004B4EBD]
+	GetHandleVerifier [0x008EF0D3+3039603]
+	GetHandleVerifier [0x00902DEA+3120778]
+	GetHandleVerifier [0x008FB592+3089970]
+	GetHandleVerifier [0x006A43B0+635984]
+	(No symbol) [0x005A4DCD]
+	(No symbol) [0x005A2068]
+	(No symbol) [0x005A2205]
+	(No symbol) [0x00594FD0]
+	BaseThreadInitThunk [0x770B5D49+25]
+	RtlInitializeExceptionChain [0x7736CEBB+107]
+	RtlGetAppContainerNamedObjectPath [0x7736CE41+561]
+
+2025-01-06 13:26:01,401 - ERROR: Failed to setup driver: '_GeneratorContextManager' object has no attribute 'driver'
