@@ -58,18 +58,6 @@ pip install psutil
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
-
-```
-jegs-scraper/
-├── paste.txt                 # Application scraper script
-├── paste-2.txt              # Product details scraper script
-├── requirements.txt          # Python dependencies
-├── README.md                # This file
-└── logs/
-    └── jegs_scraper.log     # Scraper logs (auto-generated)
-```
-
 ## 🔧 Configuration
 
 ### Constants (Configurable in both scripts)
