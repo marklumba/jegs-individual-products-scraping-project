@@ -1,13 +1,13 @@
-# Jegs Scraper for Individual and Application Parts
+# Jegs Individual and Application Parts Scraper
 
-A comprehensive web scraping solution for extracting sample brand - Bestop automotive parts data from Jegs.com, including both vehicle application data and detailed product specifications.
+A comprehensive web scraping solution for extracting sample brand -Bestop automotive parts data from Jegs.com, including both vehicle application data and detailed product specifications.
 
 ## 📋 Overview
 
 This project consists of two main scrapers:
 
-1. **Application Scraper** - Extracts vehicle fitment/application data
-2. **Product Details Scraper** - Extracts detailed product specifications and descriptions
+1. **Application Scraper**  - Extracts vehicle fitment/application data
+2. **Product Details Scraper**  - Extracts detailed product specifications and descriptions
 
 Both scrapers are designed to handle large-scale data extraction with robust error handling, CAPTCHA support, and automated Excel report generation.
 
@@ -22,17 +22,25 @@ Both scrapers are designed to handle large-scale data extraction with robust err
 - **Resource Cleanup** - Proper driver and temporary file cleanup
 
 ### Application Scraper Features
-- Vehicle fitment data extraction (Year, Make, Model)
-- Part number association with vehicle applications
+- Vehicle fitment/application data extraction (11+ detailed attributes)
+- Complete engine specifications (displacement, type, VIN codes)
+- SubModel and trim level identification
+- Aspiration type classification (Natural, Turbo, Supercharged)
+- Detailed fitment notes with installation specifics
+- Part number association with multiple vehicle applications
 - Pagination handling for comprehensive data collection
-- Vehicle information parsing and categorization
+- Engine CUI (Cubic Inch Displacement) calculations
+- Vehicle information parsing and detailed categorization
 
 ### Product Details Scraper Features
-- Complete product specifications extraction
-- Product descriptions with bullet points
-- Category and title information
-- Dynamic column handling for varying specifications
-- Structured data organization
+- Complete product specifications extraction (60+ potential attributes)
+- Product descriptions with structured bullet points (up to 8 bullets)
+- Comprehensive product categorization and fitment data
+- Package dimensions and shipping information
+- Installation requirements and compatibility details
+- Warranty and material specifications
+- Dynamic column handling for varying product attributes
+- Structured data organization with fixed column ordering
 
 ## 🛠️ Installation
 
@@ -75,18 +83,19 @@ MAX_PAGES = 100              # Maximum pages to scrape (300 for details scraper)
 ### Running the Application Scraper
 
 ```bash
-python sample_application.py
+python application.py
 ```
 
 **What it does:**
-- Scrapes vehicle application/fitment data
-- Extracts Year, Make, Model for each part
+- Scrapes comprehensive vehicle application/fitment data
+- Extracts Year, Make, Model, SubModel, Engine specs, VIN codes
+- Includes detailed fitment notes and compatibility information
 - Generates: `Bestop_Application_YYYY-MM-DD.xlsx`
 
 ### Running the Product Details Scraper
 
 ```bash
-python sample_individual.py
+python individual.py
 ```
 
 **What it does:**
@@ -104,14 +113,61 @@ python sample_individual.py
 ## 📊 Output Format
 
 ### Application Scraper Output
-| Part Number | Year | Make | Model | [Additional Fitment Details] |
-|-------------|------|------|-------|------------------------------|
-| 025-XXX-XXX | 2020 | Ford | F-150 | Engine: 5.0L V8             |
+
+The scraper extracts detailed vehicle application/fitment data with comprehensive specifications:
+
+**Vehicle Identification:**
+- Part Number, Year, Make, Model
+- SubModel, Liter (Engine Size)
+- Aspiration (Naturally Aspirated, Turbocharged, etc.)
+
+**Engine Specifications:**
+- CUI (Cubic Inch), Engine Type (L4, L6, V8, etc.)
+- Engine VIN Code
+- Detailed engine description with displacement
+
+**Fitment Information:**
+- Fitment Notes (installation details, kit contents, color)
+- Application-specific compatibility notes
+
+**Sample Output Structure:**
+| Part Number | Year | Make | Model | Liter | SubModel | Aspiration | Fitment Notes | CUI | Engine Type | Engine Vin |
+|-------------|------|------|-------|-------|----------|------------|---------------|-----|-------------|------------|
+| 025-42701-01 | 1999 | JEEP | WRANGLER | 2.5 | SE | NATURALLY ASPIRATED | Black; Knock Down Design; 4 Pc. Kit | 150 | L4 ( 2.5L / 150 ) | P |
+| 025-42701-01 | 2000 | JEEP | TJ | 4.0 | SPORT | NATURALLY ASPIRATED | Black; Knock Down Design; 4 Pc. Kit | 242 | L6 ( 4.0L / 242 ) | S |
 
 ### Product Details Scraper Output
-| Part Number | Title | Product Category | Bullet 1 | Bullet 2 | Specs | Description | [Specifications] |
-|-------------|-------|------------------|----------|----------|-------|-------------|------------------|
-| 025-XXX-XXX | Bestop Soft Top | Convertible Tops | Feature 1 | Feature 2 | | Full description | Brand: Bestop |
+
+The scraper extracts comprehensive product data with 60+ potential columns including:
+
+**Core Product Information:**
+- Part Number, Title, Product Category
+- Bullet Points (1-8 dynamic bullet features)
+- Specs, Description
+
+**Package & Shipping Details:**
+- Package Depth/Height/Width, Shipping Weight
+- Vendor Part Number
+
+**Product Specifications:**
+- Part Type, Product Line, Part Category, Part Fitment
+- Color, Style, Material, Position
+
+**Vehicle-Specific Attributes:**
+- Door Type, Seat Type, Frame Type
+- Jeep JL Quantity, Soft Top Type, Top Color/Material
+- Window Color, Doors Included, Frame Included
+
+**Installation & Compatibility:**
+- Attachment Method, Install Time, Drilling Required
+- Rails To Install, Fit, Hardware Included
+- Warranty information (Cover/Frame)
+
+**Sample Output Structure:**
+| Part Number | Title | Product Category | Bullet 1 | ... | Color | Material | Warranty |
+|-------------|-------|------------------|----------|-----|-------|----------|----------|
+| 025-42701-01 | Bestop Instatrunk 1997-2006 Jeep Wrangler | Instatrunk | Steel Powdercoated | ... | Black | Steel | - |
+| 025-52421-11 | Bestop Mesh Bimini Sunshade | Bikini Top | UV-resistant mesh | ... | - | Mesh Fabric | - |
 
 ## ⚠️ Important Notes
 
@@ -169,8 +225,10 @@ logging.basicConfig(level=logging.DEBUG)
 ### Typical Performance Metrics
 - **Pages per minute:** 5-10 (depending on server response)
 - **Parts per hour:** 300-600 (varies by complexity)
+- **Data columns extracted:** 60+ dynamic columns per product
 - **Memory usage:** 200-500MB peak
 - **Network bandwidth:** Moderate (respectful scraping)
+- **Excel file size:** 5-50MB (depending on data volume)
 
 ### Optimization Tips
 - Run during off-peak hours for better performance
