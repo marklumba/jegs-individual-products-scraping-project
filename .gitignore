@@ -1,1 +1,7 @@
-.qodo
+<<<<<<< HEAD
+# Local .gitignore content
+*.log
+=======
+# Remote .gitignore content
+*.txt
+>>>>>>> origin/main
